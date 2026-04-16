@@ -1,3 +1,5 @@
+![Profile view counter on GitHub](https://komarev.com/ghpvc/?username=cynthiaalfred) 
+
 # MS-SQL
 SQL Fundamentals
 
