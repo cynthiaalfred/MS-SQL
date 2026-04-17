@@ -99,13 +99,11 @@ SELECT * FROM staff WHERE YEAR (hire_date) > 2020
 ```
 ### Distinct
 ```SQL
-SELECT department FROM staff
 SELECT DISTINCT department FROM staff
 SELECT DISTINCT city FROM staff
 ```
 ### Order by Clause
 ```SQL
---List staff by salary(high to low)
 SELECT * FROM staff ORDER BY salary
 SELECT * FROM staff ORDER BY salary DESC
 ```
