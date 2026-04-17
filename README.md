@@ -122,7 +122,7 @@ SELECT TOP 3 * FROM staff ORDER BY salary DESC
 select top 1 * from staff where department = 'Marketing'
 select top 2* from staff where fname like '[AB]%'
 ```
-### Group By
+### Group By Clause
 ```SQL
 	select department from staff group by department
 	select department, count(emp_id) from staff group by department
